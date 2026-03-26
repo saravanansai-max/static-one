@@ -1,61 +1,123 @@
-{
-    "articles": [
-        {
-            "id": 1,
-            "title": "Введение в современный JavaScript",
-            "description": "JavaScript продолжает развиваться с невероятной скоростью. С появлением ECMAScript 2022 язык получил новые возможности, которые делают код более читаемым и эффективным. В этой статье мы рассмотрим основные нововведения и как они могут улучшить ваш код. ES2022 принес нам такие возможности, как статические блоки в классах, которые позволяют выполнять дополнительную инициализацию статических свойств. Также появился оператор await на верхнем уровне модулей, что упрощает работу с асинхронными операциями. Нельзя не упомянуть и о новых методах для массивов и строк, которые делают код более выразительным. Все эти улучшения направлены на то, чтобы разработка на JavaScript стала еще более удобной и продуктивной.",
-            "author": "Алексей Петров",
-            "date": "2023-10-15",
-            "images": ["./img/tm-home-img.jpg"],
-            "tags": ["JavaScript", "Программирование", "Web"]
-        },
-        {
-            "id": 2,
-            "title": "Адаптивный дизайн в 2024 году",
-            "description": "С ростом количества устройств и размеров экранов, адаптивный дизайн становится не просто опцией, а необходимостью. Современные подходы к адаптивному дизайну включают mobile-first, контейнерные запросы и адаптивную типографику. Подход mobile-first предполагает, что сначала мы разрабатываем дизайн для мобильных устройств, а затем адаптируем его для более крупных экранов. Это позволяет сосредоточиться на самом важном контенте и обеспечить лучший пользовательский опыт на самых распространенных устройствах. Контейнерные запросы — это новая технология, которая позволяет элементам адаптироваться не к размеру окна браузера, а к размеру их родительского контейнера. Это дает большую гибкость в создании компонентов, которые могут переиспользоваться в разных контекстах. Адаптивная типографика подразумевает, что размер шрифта, межстрочный интервал и другие параметры текста изменяются в зависимости от размеров экрана. Это важно для обеспечения читабельности на всех устройствах. В этой статье мы рассмотрим лучшие практики создания сайтов, которые отлично выглядят на любом устройстве.",
-            "author": "Мария Сидорова",
-            "date": "2023-11-02",
-            "images": [
-                "./img/tm-home-img.jpg",
-                "./img/tm-home-img.jpg"
-            ],
-            "tags": ["Дизайн", "CSS", "Адаптивность"]
-        },
-        {
-            "id": 3,
-            "title": "Преимущества чистого кода",
-            "description": "Чистый код — это не просто код, который работает. Это код, который легко читать, понимать и поддерживать. Написание чистого кода требует дисциплины и практики, но преимущества очевидны: уменьшение количества ошибок, более быстрая разработка и упрощение командной работы. Один из ключевых принципов чистого кода — это понятные имена переменных и функций. Имя должно точно отражать, что делает функция или что содержит переменная. Другой важный принцип — функции должны делать одну вещь и делать ее хорошо. Это делает код более модульным и тестируемым. Также важно следить за длиной функций и методов — они не должны быть слишком длинными. Если функция становится слишком большой, это признак того, что ее нужно разбить на несколько более мелких функций. Комментарии в коде должны объяснять 'почему', а не 'что'. Сам код должен быть настолько понятным, чтобы не требовались комментарии, объясняющие, что он делает. В этой статье мы разберем основные принципы чистого кода и как их применять в повседневной разработке.",
-            "author": "Иван Иванов",
-            "date": "2023-09-28",
-            "images": [],
-            "tags": ["Разработка", "Best Practices", "Чистый код"]
-        },
-        {
-            "id": 4,
-            "title": "Искусственный интеллект в веб-разработке",
-            "description": "Искусственный интеллект меняет подход к веб-разработке. От автоматического создания кода до персонализации пользовательского опыта — возможности кажутся безграничными. Современные AI-инструменты могут генерировать код по описанию на естественном языке, что может значительно ускорить процесс разработки. Также ИИ используется для автоматического тестирования, выявления уязвимостей безопасности и оптимизации производительности. В области пользовательского опыта ИИ позволяет создавать персонализированные интерфейсы, которые адаптируются под поведение конкретного пользователя. Алгоритмы машинного обучения анализируют действия пользователя и предсказывают, что он может сделать дальше, предлагая наиболее релевантные опции. Однако использование ИИ в разработке поднимает и этические вопросы. Насколько мы можем доверять коду, сгенерированному ИИ? Кто несет ответственность за ошибки в таком коде? Как обеспечить, чтобы ИИ не усугублял существующие предубеждения? В этой статье мы рассмотрим, как AI инструменты могут помочь разработчикам создавать более качественные приложения быстрее, а также какие этические вопросы возникают при использовании AI в разработке.",
-            "author": "Ольга Козлова",
-            "date": "2023-10-30",
-            "images": [
-                "./img/tm-home-img.jpg",
-                "./img/tm-home-img.jpg",
-                "./img/tm-home-img.jpg"
-            ],
-            "tags": ["AI", "Веб-разработка", "Технологии"]
-        },
-        {
-            "id": 5,
-            "title": "Оптимизация производительности веб-сайтов",
-            "description": "Скорость загрузки сайта напрямую влияет на пользовательский опыт, конверсию и SEO. Исследования показывают, что даже задержка в 1 секунду может снизить конверсию на 7%. В этой статье мы рассмотрим ключевые методы оптимизации производительности. Ленивая загрузка изображений позволяет откладывать загрузку изображений, которые находятся вне области видимости, до момента, когда пользователь прокручивает страницу до них. Это значительно уменьшает первоначальный размер загружаемой страницы. Минификация кода — это процесс удаления всех ненужных символов из исходного кода (пробелов, комментариев, переносов строк) без изменения его функциональности. Это уменьшает размер файлов, что ускоряет их загрузку. Кэширование позволяет хранить часто используемые ресурсы на стороне клиента или на промежуточных серверах, чтобы при повторном запросе их не нужно было загружать заново. Выбор правильного хостинга также критически важен для производительности. Географическая близость сервера к пользователям, качество сетевой инфраструктуры и возможности масштабирования — все это влияет на скорость загрузки сайта. Также мы проанализируем инструменты для измерения производительности и выявления узких мест.",
-            "author": "Дмитрий Смирнов",
-            "date": "2023-11-10",
-            "images": [
-                "./img/tm-home-img.jpg",
-                "./img/tm-home-img.jpg",
-                "./img/tm-home-img.jpg",
-                "./img/tm-home-img.jpg"
-            ],
-            "tags": ["Производительность", "Оптимизация", "Web"]
-        }
-    ]
+﻿{
+  "articles": [
+    {
+      "id": 1,
+      "title": {
+        "en": "Why we are speaking out",
+        "sv": "Varför vi talar ut"
+      },
+      "description": {
+        "en": "The stories on this site come from former employees of Langley Hotels. Identities are anonymized to protect privacy, but the experiences are real and recurring. Contributors describe unsafe conditions, violations of rights, and treatment that left many feeling ignored and silenced.",
+        "sv": "Berättelserna på denna sida kommer från tidigare anställda på Langley Hotels. Identiteter är anonymiserade för att skydda privatlivet, men erfarenheterna är verkliga och återkommande. Bidragsgivare beskriver osäkra förhållanden, brott mot rättigheter och behandling som fick många att känna sig ignorerade och tystade."
+      },
+      "author": {
+        "en": "Former employee collective",
+        "sv": "Kollektiv av tidigare anställda"
+      },
+      "date": "2026-01-12",
+      "images": [
+        "./img/tm-home-img.jpg"
+      ],
+      "tags": {
+        "en": ["Introduction", "Voices", "Justice"],
+        "sv": ["Introduktion", "Röster", "Rättvisa"]
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "en": "Not isolated incidents",
+        "sv": "Inte isolerade händelser"
+      },
+      "description": {
+        "en": "According to former employees, these were not one-off cases. Similar testimonies appeared across departments and hotels, with repeated patterns of dismissal when concerns were raised. Several contributors also describe attempts to seek legal or formal remedies that were met with silence.",
+        "sv": "Enligt tidigare anställda handlade det inte om enstaka fall. Liknande vittnesmål återkom i olika avdelningar och hotell, med upprepade mönster av avfärdande när oro lyftes. Flera bidragsgivare beskriver också försök att söka juridisk eller formell hjälp som möttes av tystnad."
+      },
+      "author": {
+        "en": "Former employee collective",
+        "sv": "Kollektiv av tidigare anställda"
+      },
+      "date": "2026-01-20",
+      "images": [
+        "./img/tm-home-img.jpg",
+        "./img/tm-home-img.jpg"
+      ],
+      "tags": {
+        "en": ["Patterns", "Accountability", "Workplace"],
+        "sv": ["Mönster", "Ansvar", "Arbetsplats"]
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "en": "Unsafe work and exploitation",
+        "sv": "Osäkert arbete och exploatering"
+      },
+      "description": {
+        "en": "Shared accounts include unsafe working conditions, wage problems, accommodation deductions, and harassment. Many contributors believe these examples represent a wider culture that prioritized image over employee wellbeing and accountability.",
+        "sv": "Delade vittnesmål inkluderar osäkra arbetsförhållanden, löneproblem, boendeavdrag och trakasserier. Många bidragsgivare anser att dessa exempel speglar en bredare kultur där image prioriterades framför personalens välmående och ansvarstagande."
+      },
+      "author": {
+        "en": "Former employee collective",
+        "sv": "Kollektiv av tidigare anställda"
+      },
+      "date": "2026-02-01",
+      "images": [],
+      "tags": {
+        "en": ["Safety", "Wages", "Harassment"],
+        "sv": ["Säkerhet", "Löner", "Trakasserier"]
+      }
+    },
+    {
+      "id": 4,
+      "title": {
+        "en": "Why anonymity matters",
+        "sv": "Varför anonymitet är viktigt"
+      },
+      "description": {
+        "en": "People shared their experiences anonymously to reduce risk and protect privacy. The goal is not personal exposure, but collective clarity: documenting what happened so others can recognize warning signs and avoid similar harm.",
+        "sv": "Människor delade sina erfarenheter anonymt för att minska risk och skydda privatlivet. Målet är inte personlig exponering utan kollektiv tydlighet: att dokumentera vad som hände så att andra kan känna igen varningssignaler och undvika liknande skada."
+      },
+      "author": {
+        "en": "Former employee collective",
+        "sv": "Kollektiv av tidigare anställda"
+      },
+      "date": "2026-02-10",
+      "images": [
+        "./img/tm-home-img.jpg",
+        "./img/tm-home-img.jpg",
+        "./img/tm-home-img.jpg"
+      ],
+      "tags": {
+        "en": ["Privacy", "Testimony", "Support"],
+        "sv": ["Integritet", "Vittnesmål", "Stöd"]
+      }
+    },
+    {
+      "id": 5,
+      "title": {
+        "en": "Building change together",
+        "sv": "Skapa förändring tillsammans"
+      },
+      "description": {
+        "en": "This platform invites more former employees and families to come forward. The more voices that are gathered, the stronger the call for fair treatment, safe workplaces, and meaningful change for future workers.",
+        "sv": "Denna plattform bjuder in fler tidigare anställda och familjer att träda fram. Ju fler röster som samlas, desto starkare blir kravet på rättvis behandling, säkra arbetsplatser och verklig förändring för framtida arbetstagare."
+      },
+      "author": {
+        "en": "Former employee collective",
+        "sv": "Kollektiv av tidigare anställda"
+      },
+      "date": "2026-02-18",
+      "images": [
+        "./img/tm-home-img.jpg",
+        "./img/tm-home-img.jpg",
+        "./img/tm-home-img.jpg",
+        "./img/tm-home-img.jpg"
+      ],
+      "tags": {
+        "en": ["Community", "Change", "Solidarity"],
+        "sv": ["Gemenskap", "Förändring", "Solidaritet"]
+      }
+    }
+  ]
 }
